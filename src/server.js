@@ -1,5 +1,5 @@
 // import internal dependencies
-const app =  require('./app');
+const app = require('./app');
 
 // Run The Server
 app.listen(process.env.PORT, () => {
