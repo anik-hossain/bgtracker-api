@@ -4,8 +4,8 @@
     "description": "bgtrakcer backend application",
     "main": "server.js",
     "scripts": {
-        "start": "cross-env NODE_ENV=production node src/server.js",
-        "serve": "cross-env NODE_ENV=development nodemon src/server.js"
+      "dev": "cross-env NODE_ENV=development nodemon src/server.js",
+      "start": "cross-env NODE_ENV=production node src/server.js"
     },
     "repository": "https://github.com/anik-hossain/bgtracker-api.git",
     "author": "Anik Hossain <anik.wdev@gmail.com>",
